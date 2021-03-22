@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    background-image: url("backrgound_image.jpg");
 }
 
 .background-card{
