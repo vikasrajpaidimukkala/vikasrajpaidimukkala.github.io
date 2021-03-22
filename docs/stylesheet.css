@@ -1,4 +1,60 @@
-body {
- background-image: url("website_image.jpeg");
- background-color: #cccccc;
+html, body {
+    margin: 0;
+}
+
+.background-card{
+box-shadow: 0 0 5px rgba(0,0,0,.75), 15px 15px 20px rgba(0,0,0,.6);
+border-radius: 15px;
+background-color: #348ceb;
+height: 750px;
+margin: 75px;
+padding: 10px;
+}
+
+#name{
+padding: 10px;
+text-align:center;
+font-size: 30px;
+}
+
+
+.big-bucket{
+display: flex;
+justify-content: space-between;
+}
+
+.buckets{
+margin: 0 auto;
+background-color: white;
+border-radius: 15px;
+height: 650px;
+width: 425px;
+display: inline-block;
+text-align: left;
+box-shadow: 0 0 5px rgba(0,0,0,.35), 15px 15px 20px rgba(0,0,0,.45);
+overflow: auto;
+}
+
+.banner{
+text-align: center;
+height: 50px;
+background-color: #348ceb;
+border-radius: 15px;
+margin: 5px;
+box-shadow: 0 0 5px rgba(0,0,0,.35), 15px 15px 20px rgba(0,0,0,.45);
+}
+
+.card-headings{
+font-size: 25px;
+padding: 10px 10px 10px 10px;
+}
+
+.cards{
+display: flex;
+height: auto;
+max-height: 325px;
+background-color: #348ceb;
+margin: 10px;
+border-radius: 15px;
+box-shadow: 0 0 5px rgba(0,0,0,.35), 15px 15px 20px rgba(0,0,0,.45);
 }
